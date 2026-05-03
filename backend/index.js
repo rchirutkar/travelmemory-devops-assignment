@@ -19,3 +19,11 @@ app.get('/hello', (req,res)=>{
 app.listen(PORT, ()=>{
     console.log(`Server started at http://localhost:${PORT}`)
 })
+
+app.get("/", (req, res) => {
+  res.send("Backend is running successfully.");
+});
+
+app.get('/test', (req, res) => {
+  res.send("Response from Server 1");
+});

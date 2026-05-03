@@ -1,0 +1,263 @@
+Server started at http://localhost:3000
+Server started at http://localhost:3000
+{
+  tripName: 'Goa',
+  startDateOfJourney: '2026-04-30',
+  endDateOfJourney: '2026-05-07',
+  nameOfHotels: 'Goa resort',
+  placesVisited: '',
+  totalCost: '1000',
+  experience: '',
+  image: '',
+  tripType: 'backpacking',
+  featured: false,
+  shortDescription: ''
+}
+ERROR
+{
+  title: 'Test Trip',
+  description: 'Test Desc',
+  image: 'https://via.placeholder.com/150',
+  price: 1000
+}
+ERROR
+{
+  title: 'Test Trip',
+  description: 'Test Desc',
+  image: 'https://via.placeholder.com/150',
+  price: 1000
+}
+ERROR
+{
+  tripName: 'goa',
+  startDateOfJourney: '',
+  endDateOfJourney: '',
+  nameOfHotels: '',
+  placesVisited: '',
+  totalCost: 0,
+  experience: '',
+  image: '',
+  tripType: '',
+  featured: false,
+  shortDescription: ''
+}
+ERROR
+{
+  tripName: 'goa',
+  startDateOfJourney: '',
+  endDateOfJourney: '',
+  nameOfHotels: '',
+  placesVisited: '',
+  totalCost: 0,
+  experience: '',
+  image: '',
+  tripType: '',
+  featured: false,
+  shortDescription: ''
+}
+ERROR
+{
+  tripName: 'goa',
+  startDateOfJourney: '',
+  endDateOfJourney: '',
+  nameOfHotels: '',
+  placesVisited: '',
+  totalCost: 0,
+  experience: '',
+  image: '',
+  tripType: '',
+  featured: false,
+  shortDescription: ''
+}
+ERROR
+{
+  tripName: 'goa',
+  startDateOfJourney: '',
+  endDateOfJourney: '',
+  nameOfHotels: '',
+  placesVisited: '',
+  totalCost: 0,
+  experience: '',
+  image: '',
+  tripType: '',
+  featured: false,
+  shortDescription: ''
+}
+ERROR
+{
+  tripName: 'goa',
+  startDateOfJourney: '',
+  endDateOfJourney: '',
+  nameOfHotels: '',
+  placesVisited: '',
+  totalCost: 0,
+  experience: '',
+  image: '',
+  tripType: '',
+  featured: false,
+  shortDescription: ''
+}
+ERROR
+{
+  tripName: 'goa',
+  startDateOfJourney: '',
+  endDateOfJourney: '',
+  nameOfHotels: '',
+  placesVisited: '',
+  totalCost: 0,
+  experience: '',
+  image: '',
+  tripType: '',
+  featured: true,
+  shortDescription: ''
+}
+ERROR
+{
+  tripName: 'goa',
+  startDateOfJourney: '2026-05-01',
+  endDateOfJourney: '2026-05-07',
+  nameOfHotels: '',
+  placesVisited: '',
+  totalCost: 0,
+  experience: '',
+  image: '',
+  tripType: '',
+  featured: true,
+  shortDescription: ''
+}
+ERROR
+{
+  tripName: 'goa',
+  startDateOfJourney: '2026-05-01',
+  endDateOfJourney: '2026-05-07',
+  nameOfHotels: '',
+  placesVisited: '',
+  totalCost: '9999',
+  experience: '',
+  image: '',
+  tripType: 'business',
+  featured: true,
+  shortDescription: ''
+}
+ERROR
+{
+  tripName: 'goa',
+  startDateOfJourney: '2026-05-01',
+  endDateOfJourney: '2026-05-07',
+  nameOfHotels: '',
+  placesVisited: '',
+  totalCost: '999',
+  experience: '',
+  image: '',
+  tripType: 'business',
+  featured: true,
+  shortDescription: ''
+}
+ERROR
+{
+  tripName: 'Goa Trip 2',
+  startDateOfJourney: '',
+  endDateOfJourney: '',
+  nameOfHotels: '',
+  placesVisited: '',
+  totalCost: '4999',
+  experience: '',
+  image: '',
+  tripType: '',
+  featured: false,
+  shortDescription: 'Beach trip'
+}
+ERROR
+{
+  tripName: '',
+  startDateOfJourney: '',
+  endDateOfJourney: '',
+  nameOfHotels: '',
+  placesVisited: '',
+  totalCost: 0,
+  experience: '',
+  image: '',
+  tripType: '',
+  featured: false,
+  shortDescription: ''
+}
+ERROR
+{
+  tripName: 'Shimla trip',
+  startDateOfJourney: '',
+  endDateOfJourney: '',
+  nameOfHotels: '',
+  placesVisited: '',
+  totalCost: 0,
+  experience: '',
+  image: '',
+  tripType: '',
+  featured: false,
+  shortDescription: ''
+}
+ERROR
+{ title: 'Test', description: 'Test', image: 'img', price: 100 }
+ERROR
+{}
+ERROR
+Server started at http://localhost:3000
+{
+  image: 'https://via.placeholder.com/150',
+  shortDescription: 'Beach vacation',
+  totalCost: 5000,
+  tripName: 'Goa Trip'
+}
+ERROR
+{
+  image: 'https://via.placeholder.com/150',
+  shortDescription: 'Beach vacation',
+  totalCost: 5000,
+  tripName: 'Goa Trip'
+}
+ERROR
+{
+  tripName: 'Shimla trip',
+  startDateOfJourney: '',
+  endDateOfJourney: '',
+  nameOfHotels: '',
+  placesVisited: '',
+  totalCost: '999',
+  experience: '',
+  image: '',
+  tripType: '',
+  featured: false,
+  shortDescription: 'nice'
+}
+ERROR
+{
+  tripName: 'Shimla trip',
+  startDateOfJourney: '',
+  endDateOfJourney: '',
+  nameOfHotels: '',
+  placesVisited: '',
+  totalCost: '999',
+  experience: '',
+  image: '',
+  tripType: '',
+  featured: false,
+  shortDescription: 'nice'
+}
+ERROR
+Server started at http://localhost:3000
+Server started at http://localhost:3000
+{
+  tripName: 'Dehli trip',
+  startDateOfJourney: '2026-05-02',
+  endDateOfJourney: '2026-05-09',
+  nameOfHotels: 'Some hotel',
+  placesVisited: 'Dehli',
+  totalCost: '1199',
+  experience: 'good',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT51SIisDTo1Lntxvbll6fAxAHqhzI8tFwRjw&s',
+  tripType: 'backpacking',
+  featured: true,
+  shortDescription: 'Dehli is good'
+}
+Server started at http://localhost:3000
+Server started at http://localhost:3000
+Server started at http://localhost:3000
