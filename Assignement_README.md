@@ -16,6 +16,55 @@ This project demonstrates deployment of a full-stack application using AWS and D
 
 ---
 
+## Diagram
+
+                                                  🌐 User (Browser)
+                                                         │
+                                                         ▼
+                                      ┌──────────────────────────────────────┐
+                                      │  Cloudflare (DNS + SSL)              │
+                                      │  mytravelapp.online                  │
+                                      └──────────────────────────────────────┘
+                                                         │
+                                                         ▼
+                                      ┌──────────────────────────────────────┐
+                                      │ AWS Region (ap-south-1)              │
+                                      │                                      │
+                                      │   ┌──────────────────────────────┐   │
+                                      │   │ Application Load Balancer    │   │
+                                      │   │ (HTTP:80 Listener)           │   │
+                                      │   └──────────────┬───────────────┘   │
+                                      │                  │                   │
+                                      │         ┌────────▼────────┐          │
+                                      │         │  Target Group   │          │
+                                      │         └───────┬─────────┘          │
+                                      │                 │                    │
+                                      │   ┌─────────────┴─────────────┐      │
+                                      │   │                           │      │
+                                      │   ▼                           ▼      │
+                                      │ ┌──────────────┐    ┌──────────────┐ │
+                                      │ │ AZ-1         │    │ AZ-2         │ │
+                                      │ │ (ap-south-1a)│    │ (ap-south-1b)│ │
+                                      │ │              │    │              │ │
+                                      │ │ EC2 Instance │    │ EC2 Instance │ │
+                                      │ │ ───────────  │    │ ───────────  │ │
+                                      │ │ SecurityGrp  │    │ SecurityGrp  │ │
+                                      │ │ Nginx        │    │ Nginx        │ │
+                                      │ │ (Proxy)      │    │ (Proxy)      │ │
+                                      │ │ ↓            │    │ ↓            │ │
+                                      │ │ Node.js App  │    │ Node.js App  │ │
+                                      │ └──────────────┘    └──────────────┘ │
+                                      │                                      │
+                                      └──────────────────────────────────────┘
+                                                         │
+                                                         ▼
+                                              ┌──────────────────────┐
+                                              │ MongoDB Atlas        │
+                                              │ (Cloud Database)     │
+                                              └──────────────────────┘
+
+---
+
 ##  Features Implemented
 - Multi-EC2 deployment across Availability Zones
 - Load balancing using ALB
